@@ -9,6 +9,9 @@
   <link rel="stylesheet" type="text/css" href="estilo.css">
   <link rel="stylesheet" type="text/css" href="animacion.css">
   <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+
 
   <script type="text/javascript">
     function startTime()
@@ -47,15 +50,15 @@
 	<body>
     <div class="CajaUno animated bounceInDown">
 
-            <form action="gestion.php" method="post" enctype="multipart/form-data"><!--Pasa el archivo la propiedad enctype="multipart/form-data" en foto, no el nombre -->
+            <form name="ingresoDeAutos"><!-- action="gestion.php" method="post" enctype="multipart/form-data"><!--Pasa el archivo la propiedad enctype="multipart/form-data" en foto, no el nombre -->
             <input type="text" name="patente"  id="autocomplete" required title="Debe ingresar una patente!"/>
             <br>
-            <input type="submit" class="MiBotonUTN" value="ingreso"  name="estacionar" />
+            <input type="button" class="MiBotonUTN" value="ingreso"  name="estacionar" onClick="EnviarDatos()"/>
             <br/>
-            <input type="submit" class="MiBotonUTN" value="egreso" name="estacionar" />
+            <input type="button" class="MiBotonUTN" value="egreso" name="estacionar" />
             <br>
             <!--<input type="file" class="MiBotonUTN" name="fotoAutito" accept="image/x-png, image/gif, image/jpeg" />-->
-            <input type="file" class="MiBotonUTN" name="fotoAutito" value="fotoAutito" accept="image/*" /><!--la propiedad del control input file accept-->
+            <input type="file" class="MiBotonUTN" name="fotoAutito" value="fotoAutito" accept="image/*" id="fotoAutito"/><!--la propiedad del control input file accept-->
           </form>
 
 
