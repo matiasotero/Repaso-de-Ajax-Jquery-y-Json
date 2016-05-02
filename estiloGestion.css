@@ -1,0 +1,106 @@
+
+  	body
+  	{
+  		background-color: #3f51b5;
+  	}
+  	table 
+  	{
+    	border-collapse: collapse;
+    	width: 100%;
+    	width: 500px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	h1
+	{
+		color: white;		
+    	text-align: center;
+	}
+
+	th, td 
+	{
+    	text-align: center;
+    	padding: 8px;
+    	font-color:black;
+	}
+
+	tr:nth-child(even)
+	{
+		background-color: #333300;
+	}
+
+	th 
+	{
+    	background-color: #5a9352;
+    	color: white;
+	}
+
+	tr
+	{
+		background-color: #814483;
+		font-weight: bold;
+		color:white;
+	}
+
+	/*a
+	{
+		font-weight: bold;
+		font-size: 50px;
+		text-align: center;
+	}*/
+	.btn 
+	{
+		display:inline-block;
+		background-color:#f44336;
+		color: #FFFFFF;
+		padding: 14px 25px;
+		text-align: center;	
+		text-decoration: none;
+		font-size:16px;
+		margin-left:20px;
+		opacity:0.9;
+	}
+	.btn:hover 
+	{
+		color:white;
+		background-color:red;
+		opacity:1;
+	}
+	.button 
+	{
+		background-color: white;
+		color: black;
+		border: 2px solid #4CAF50;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin-left:20px;
+	}
+
+	.button:hover 
+	{
+		background-color: #4CAF50;
+		color: white;
+	}
+
+
+	.CajaEnunciado 
+	{
+		color: white;
+  		max-width: 30%;
+  		border: dashed;
+ 		/*position: fixed;*/
+		background: royalblue;
+		top: 0px;
+		width: 400px;
+		margin: 0;
+		padding: 10px;
+		/* margin-top: 8px; */
+		margin-bottom: 2%;
+		transition: opacity 1s;
+		-webkit-transition: opacity 1s;
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+	}
